@@ -1,0 +1,407 @@
+body {
+ background-image: url("../kinguin/bg-nocta.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+html {
+margin:    0 auto;
+max-width: 710px;
+font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+  color: #F9F9F9;
+}
+
+p {
+  text-decoration: none;
+  color: #F9F9F9;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  left: 0;
+  text-align: center;
+  margin-top: 6px !important;
+
+}
+
+  h2 {
+    color: #F9F9F9;
+    padding-top: 3%;
+    position: relative;
+    display: inline-block;
+font-size: 22px;
+    padding-bottom: 5px;
+}
+svg {
+  position: relative;
+  width: auto;
+  max-width: 45vw;
+  text-align: center;
+  padding-top: 3%;
+  margin: auto;
+  display: block;
+  }
+  .banner {
+    width: auto;
+    max-width: 100vw;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 5%;
+    position: relative
+  }
+.sitebg {
+  width: auto;
+  max-width: 80vw;
+  margin: auto;
+  display: block;
+  background: #2f3d45; 
+  border-radius: 10px;
+  margin-bottom:20px;
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+}
+
+.text {
+  color: #F9F9F9;
+  font-size: 16px;
+  padding: 27px 32px;
+  font-weight:600;
+  line-height: 30px;
+}
+.text2 {
+  color: #F9F9F9;
+  text-align: center;
+
+}
+
+.text2:hover {
+  color: #01D370;
+
+
+}
+
+  .button {
+    position: relative;
+    background-color: #232c31;
+    box-shadow: 0px 12px 12px rgb(0 0 0 / 8%);
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    display: inline-block;
+    float: right;
+    transition: 0.3s;
+    display: block;
+    margin: 23px 5px;
+    right: 20px;
+
+
+}
+
+.button:hover {
+  background-color: #2a343a;
+
+  
+}
+
+.online {
+  background: #00FF86;
+  box-shadow: 0px 0px 10px #00ff8685;
+  animation: pulse-online 2s infinite;
+
+}
+  @keyframes pulse-online {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.363);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+  }
+
+
+.offline {
+  background: #FF4040;
+  box-shadow: 0px 0px 10px #FF4040;
+  animation: pulse-offline 2s infinite;
+}
+
+@keyframes pulse-offline {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 64, 64, 1);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+  }
+}
+
+.status {
+  width: 10px;
+  height:10px;
+  border-radius: 999px;
+  display: inline-block;
+  float: right;
+  margin-top: 11px;
+}
+
+.footerbg {
+  width: auto;
+  max-width: 93vw;
+  margin: auto;
+  display: block;
+  background: #2f3d45; 
+  border-radius: 10px;
+  margin-top: 5%;
+  height: 85px;
+  margin-top: 10%;
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+}
+
+
+.banner {
+  box-shadow: 0px 0px 10px #00ff8856;
+  animation: pulse-online 4s infinite;
+
+}
+  @keyframes pulse-online {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.192);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 20px rgba(255, 121, 63, 0);
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+  }
+
+  .statustext {
+    display: inline-block;
+    float:right;
+    padding: 1px 25px;
+    color: #818E9D;
+  }
+
+  .badge {
+    background-color: #3e4f5a70;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 5.8%;
+    float: right;
+    
+  }
+.btn-group button {
+  background-color: #28353B; 
+  border: 1px solid #232c30;
+color: #aebfc7;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+transition: 0.3s;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #35434c;
+
+}
+
+.buttonplay {
+  background-color: #00FF86;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: rgb(21 98 54) 0px 2px 0px 0px;
+    color: rgb(43, 62, 70);
+    font-weight: bold;
+transition: 0.3s;
+box-shadow: 0px 0px 20.8522px #008152;
+}
+
+
+.buttonplay:hover {
+background-color: #33FF9E;
+
+}
+
+br {
+   display: block;
+   margin: 2px 0;
+
+}
+
+.twitchbtn {
+  background-color: #9146FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: #6E2FCA;
+    color: white;
+    font-weight: bold;
+transition: 0.3s;
+}
+
+
+.twitchbtn:hover {
+background-color: #A871F9;
+
+}
+
+.buttonslink {
+margin:auto;
+}
+
+
+
+.buttonplaysec {
+background-color: #3b4c56;
+    border: none;
+    color: #6d8797;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 6px;
+    /* box-shadow: rgb(21 98 54) 0px 2px 0px 0px; */
+    /* color: rgb(43, 62, 70); */
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.buttonplaysec:hover {
+background-color: #495e6a;
+}
+
+
+.ytbtn {
+  background-color: #E13A39;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: #E13A39;
+    color: white;
+    font-weight: bold;
+transition: 0.3s;
+}
+
+.ytbtn:hover {
+background-color: #FB5655;
+
+}
+
+.bilibtn {
+  background-color: #07A3D7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: #07A3D7;
+    color: white;
+    font-weight: bold;
+transition: 0.3s;
+}
+
+.bilibtn:hover {
+background-color: #2DCAFF;
+
+}
+
+.kinguinbtn {
+  background-color: #FF9600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: #07A3D7;
+    color: white;
+    font-weight: bold;
+transition: 0.3s;
+}
+
+.kinguinbtn:hover {
+background-color: #FFAD38;
+
+}
