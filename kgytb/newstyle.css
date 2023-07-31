@@ -385,8 +385,8 @@ background-color: #8DA4F6;
         border: none;
     }
 	.btn-group button {
-  background-color: #28353B; 
-  border: 1px solid #232c30;
+  background-color: #252C31; 
+  border: 1px solid #252C31;
 color: #aebfc7;
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -407,6 +407,6 @@ transition: 0.3s;
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #35434c;
+  background-color: #333B42;
 
 }
